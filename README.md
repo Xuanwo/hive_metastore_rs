@@ -7,10 +7,6 @@
 
 `hive_metastore` is the hive metastore client for Rust.
 
-```rust
-// Replace with quick Start here
-```
-
 ## Thrift Runtime
 
 We are using [`tent-rs`](https://github.com/tent-rs/) provided [`tent-thrift`](https://crates.io/crates/tent-thrift) as our thrift runtime.

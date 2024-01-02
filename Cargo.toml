@@ -16,7 +16,7 @@ members = [
 ]
 
 [dependencies]
-pilota = "0.9"
-volo = "0.8"
-volo-thrift = "0.8"
+pilota = "0.10"
+volo = "0.9"
+volo-thrift = "0.9"
 anyhow = "1"

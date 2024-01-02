@@ -7,13 +7,11 @@ repository = "https://github.com/Xuanwo/hive_metastore_rs"
 edition = "2021"
 license = "Apache-2.0"
 name = "hive_metastore"
-version = "0.0.1"
+version = "0.0.2"
+rust-version = "1.75"
 
 [workspace]
-members = [
-    ".",
-    "thrift_build",
-]
+members = [".", "thrift_build"]
 
 [dependencies]
 pilota = "0.10"

@@ -9,27 +9,8 @@
 
 ## Thrift Runtime
 
-We are using [`tent-rs`](https://github.com/tent-rs/) provided [`tent-thrift`](https://crates.io/crates/tent-thrift) as our thrift runtime.
+We are using [`volo`](https://github.com/cloudwego/volo) as our thrift runtime.
 
-To use this crate, you need to add `tent-thrift` to your `Cargo.toml` in this way:
-
-```toml
-thrift = {package = "tent-thrift", version= "0.18.1"}
-```
-
-## Thrift IDL
-
-`thrift/hms.thrift` is copied from [apache/hive](https://github.com/apache/hive/blob/rel/release-3.1.3/standalone-metastore/src/main/thrift/hive_metastore.thrift).
-
-We removed `fb303` so that we can build without `fb303.thrift` been required.
-
-To re-generate code, please run:
-
-```shell
-thrift -out ./src -gen rs -r thrift_idl/hms.thrift
-```
-
-We deliver the generated code in this repo, so users don't need to run this command.
 
 ## Contributing
 

@@ -16,5 +16,5 @@ members = [".", "thrift_build"]
 [dependencies]
 pilota = "0.10"
 volo = "0.9"
-volo-thrift = "0.9"
+volo-thrift = "0.10"
 anyhow = "1"

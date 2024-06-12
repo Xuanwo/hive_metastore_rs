@@ -1,13 +1,13 @@
 [package]
 authors = ["Xuanwo <github@xuanwo.io>>"]
 categories = ["command-line-utilities"]
-description = "Replace with description"
+description = "Native hive metastore client for Rust, powered by Volo"
 documentation = "https://docs.rs/hive_metastore"
 repository = "https://github.com/Xuanwo/hive_metastore_rs"
 edition = "2021"
 license = "Apache-2.0"
 name = "hive_metastore"
-version = "0.0.2"
+version = "0.1.0"
 rust-version = "1.75"
 
 [workspace]

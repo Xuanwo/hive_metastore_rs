@@ -14,7 +14,7 @@ rust-version = "1.85"
 members = [".", "thrift_build"]
 
 [dependencies]
-pilota = "0.11.10"
+pilota = "0.12.0"
 volo = "0.10.6"
 volo-thrift = "0.10.8"
 anyhow = "1"
